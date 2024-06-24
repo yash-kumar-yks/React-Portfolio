@@ -1,0 +1,74 @@
+name: Deploy to Vercel (production)
+
+on:
+  push:
+    branches:
+      - 'master'
+      - 'lighthouse-integration'
+
+jobs:
+  setup-environment:
+    name: Setup deployment environment (Ubuntu - Node 18.x)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+  start-production-deployment:
+    name: Starts Vercel deployment (Production) (Ubuntu)
+    runs-on: ubuntu-latest
+    needs: setup-environment
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: amondnet/vercel-action@v20
+        with:
+          vercel-token: ${{ secrets.ZEIT_TOKEN }}
+          vercel-args: '--prod'
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
+
+  # run-lighthouse-tests:
+  #   name: Run LightHouse checks (Ubuntu 18.04)
+  #   runs-on: ubuntu-latest
+  #   needs: start-production-deployment
+  #   env:
+  #     ACTIONS_ALLOW_UNSECURE_COMMANDS: "true"
+  #   steps:
+  #     - uses: actions/checkout@v1
+  #     - name: Resolving deployment url from Zeit
+  #       run: |
+  #         apt update -y >/dev/null && apt install -y jq >/dev/null
+  #         ZEIT_DEPLOYMENT=`curl -H 'Accept: application/json' -H 'Content-Type: application/json' -H 'Authorization: Bearer ${{ secrets.ZEIT_TOKEN }}' https://api.zeit.co/v5/now/deployments?teamId=$(cat now.json | jq -r '.scope') | jq '.deployments [0].url' | tr -d \"`
+  #         echo "::set-env name=ZEIT_DEPLOYMENT_URL::https://$ZEIT_DEPLOYMENT"
+  #       env:
+  #         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+  #     - name: Create temporary folder for artifacts storage
+  #       run: mkdir /tmp/lighthouse-artifacts
+  #     - name: Run Lighthouse
+  #       uses: foo-software/lighthouse-check-action@v1.0.14
+  #       env:
+  #         ACTIONS_ALLOW_UNSECURE_COMMANDS: "true"
+  #       id: lighthouseCheck
+  #       with:
+  #         outputDirectory: /tmp/lighthouse-artifacts
+  #         urls: ${{ env.ZEIT_DEPLOYMENT_URL }}
+  #     - name: Upload artifacts
+  #       uses: actions/upload-artifact@v1
+  #       with:
+  #         name: Lighthouse reports
+  #         path: /tmp/lighthouse-artifacts
+  #     - name: Handle Lighthouse Check results
+  #       uses: foo-software/lighthouse-check-status-action@v1.0.1
+  #       with:
+  #         lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
+  #         minAccessibilityScore: "50"
+  #         minBestPracticesScore: "50"
+  #         minPerformanceScore: "30"
+  #         minProgressiveWebAppScore: "50"
+  #         minSeoScore: "50"

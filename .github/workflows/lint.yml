@@ -1,0 +1,29 @@
+name: Linting Tests
+
+on: push
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: NPM set legacy-peer-deps to true
+        run: 'npm config set legacy-peer-deps true'
+
+      - name: Insatll Prettier
+        run: 'npm install prettier'
+
+      - name: Insatll ESLint
+        run: 'npm i eslint'
+
+      - name: Run linters
+        run: 'npx prettier --check .'

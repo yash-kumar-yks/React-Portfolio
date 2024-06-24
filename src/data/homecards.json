@@ -1,0 +1,314 @@
+{
+	"data": [
+		{
+			"title": "Projects",
+			"value": [
+				{
+					"id": 1,
+					"title": "Chatbox",
+					"description": "This is an application developed for an in-depth understanding of WebSockets. For the front end, I have used React JS and sockets IO & For the backend, implemented sockets using Express JS.",
+					"projectRoute": "https://chatbox-frontend.vercel.app/",
+					"githubUrl": "https://github.com/pranjaljain0/chatbox-frontend",
+					"badgeTitle": [
+						"Socket",
+						"ReactJS",
+						"ExpressJS",
+						"HTML",
+						"CSS"
+					],
+					"initialColor": "#56CCF2",
+					"finalColor": "#2F80ED",
+					"language": "C++"
+				},
+				{
+					"id": 2,
+					"title": "The Yellow Mushroom",
+					"description": "Created a website home page for a start-up company that is in the field of Design and Development. Created the frontend using React JS using multiple custom-made reusable components.",
+					"projectRoute": "https://yellowmushrooms.netlify.app/",
+					"badgeTitle": [
+						"ReactJS",
+						"ExpressJS",
+						"HTML",
+						"CSS"
+					],
+					"initialColor": "#373B44",
+					"finalColor": "#4286f4",
+					"language": "Java"
+				},
+				{
+					"id": 3,
+					"title": "Refactored Waffles",
+					"description": "This is a web application made as a submission for the MongoDB Atlas Hackathon 2021, This project is an E-commerce store purely made using tools provided by MondoDB",
+					"projectRoute": "https://refactored-waffle-lake.vercel.app/",
+					"githubUrl": "https://github.com/pranjaljain0/refactored-waffle",
+					"badgeTitle": [
+						"NextJS",
+						"MongoDB",
+						"HTML",
+						"CSS"
+					],
+					"initialColor": "#f12711",
+					"finalColor": "#f5af19",
+					"language": "JavaScript"
+				},
+				{
+					"id": 4,
+					"title": "ZenHotline",
+					"projectRoute": "https://dev.zenhotline.com/",
+					"description": "Initiated a medical teleconsultation platform using reactJS as a front-end framework created almost 40+ reusable components Executed a middleware with ExpressJS that consisted of 60+ endpoints to perform backend operations Integrated nearly 10 accessories tools to schedule, maintain and organize meetings/video calls between clients and professionals",
+					"badgeTitle": [
+						"ReactJS",
+						"ExpressJS",
+						"HTML",
+						"CSS",
+						"Firebase"
+					],
+					"initialColor": "#11998e",
+					"finalColor": "#38ef7d",
+					"language": "Haskell"
+				},
+				{
+					"id": 5,
+					"title": "Cards",
+					"projectRoute": "https://credit-card-landing-page-ui.vercel.app/",
+					"description": "Its a project where I was exploring integration of 3D objects which are exported from blender to the web applications which can in turn make the web a more enhanced experience for users.",
+					"badgeTitle": [
+						"ReactJS",
+						"ExpressJS",
+						"HTML",
+						"CSS",
+						"ModelViewer",
+						"Blender",
+						"ThreeJS"
+					],
+					"githubUrl": "https://github.com/pranjaljain0/Credit-Card-Landing-Page-UI",
+					"initialColor": "#f05053",
+					"finalColor": "#e1eec3",
+					"language": "Ruby"
+				}
+			],
+			"route": "/projects",
+			"initialColor": "#56CCF2",
+			"finalColor": "#2F80ED",
+			"icon": "GiThorHammer"
+		},
+		{
+			"title": "Coding",
+			"value": [
+				{
+					"title": "Python",
+					"level": "Advance"
+				},
+				{
+					"title": "HTML",
+					"level": "Advance"
+				},
+				{
+					"title": "PHP",
+					"level": "Advance"
+				},
+				{
+					"title": "JAVA",
+					"level": "Advance"
+				},
+				{
+					"title": "C++",
+					"level": "Advance"
+				},
+				{
+					"title": "C",
+					"level": "Advance"
+				},
+				{
+					"title": "Android",
+					"level": "Intermediate"
+				},
+				{
+					"title": "JS",
+					"level": "Intermediate"
+				},
+				{
+					"title": "MongoDB",
+					"level": "Intermediate"
+				},
+				{
+					"title": "ReactJS",
+					"level": "Beginner"
+				}
+			],
+			"route": "/languages",
+			"initialColor": "#373B44",
+			"finalColor": "#4286f4",
+			"icon": "DiJavascript1"
+		},
+		{
+			"title": "Hobbies & Interest",
+			"value": [
+				{
+					"title": "Solving puzzles",
+					"hobbyIcon": "FaPuzzlePiece"
+				},
+				{
+					"title": "Computing",
+					"hobbyIcon": "MdComputer"
+				},
+				{
+					"title": "Going to the gym",
+					"hobbyIcon": "FaDumbbell"
+				},
+				{
+					"title": "Travelling",
+					"hobbyIcon": "MdCardTravel"
+				},
+				{
+					"title": "Networking",
+					"hobbyIcon": "FaNetworkWired"
+				},
+				{
+					"title": "Playing guitar",
+					"hobbyIcon": "FaGuitar"
+				}
+			],
+			"route": "#",
+			"initialColor": "#f12711",
+			"finalColor": "#f5af19",
+			"icon": "FaGuitar"
+		},
+		{
+			"title": "Education",
+			"value": [
+				{
+					"title": "New Jersey Institute of Technology",
+					"duration": "2021-2023",
+					"location_city": "Newark",
+					"location_state": "New Jersey",
+					"location_country": "US",
+					"description": "Masters of Scinece",
+					"sec_details": "Computer Science & Technology",
+					"color": "#fef54b",
+					"text": "#1d1d1d"
+				},
+				{
+					"title": "Avantika University",
+					"duration": "2017-2021",
+					"location_city": "Ujjain",
+					"location_state": "Madhya Pradesh",
+					"location_country": "IN",
+					"description": "Bachelor of Technology",
+					"sec_details": "Specialization : Computer Science engineering",
+					"color": "#fef54b",
+					"text": "#1d1d1d"
+				},
+				{
+					"title": "The Sanskaar Valley School",
+					"duration": "2012 - 2016",
+					"location_city": "Bhopal",
+					"location_state": "Madhya Pradesh",
+					"location_country": "IN",
+					"description": "High school",
+					"sec_details": "ISC- 66%; ICSE- 87%",
+					"color": "#ffe54a",
+					"text": "#1d1d1d"
+				},
+				{
+					"title": "The Scindia School",
+					"duration": "2008 - 2011",
+					"location_city": "Gwalior",
+					"location_state": "Madhya Pradesh",
+					"location_country": "IN",
+					"description": "High school",
+					"sec_details": "",
+					"color": "#ffd448",
+					"text": "#1d1d1d"
+				},
+				{
+					"title": "St. Joseph's Co-ed School ",
+					"duration": "2003 - 2007",
+					"location_city": "Bhopal",
+					"location_state": "Madhya Pradesh",
+					"location_country": "IN",
+					"description": "Middle school",
+					"sec_details": "",
+					"color": "#ffc446",
+					"text": "#1d1d1d"
+				}
+			],
+			"route": "#",
+			"initialColor": "#007991",
+			"finalColor": "#78ffd6",
+			"icon": "GiBookshelf"
+		},
+		{
+			"title": "Contact",
+			"value": [
+				{
+					"title": "instagram",
+					"link": ""
+				},
+				{
+					"title": "linkedin",
+					"link": ""
+				},
+				{
+					"title": "github",
+					"link": ""
+				},
+				{
+					"title": "instagram",
+					"link": ""
+				}
+			],
+			"route": "#",
+			"initialColor": "#11998e",
+			"finalColor": "#38ef7d",
+			"icon": "TiSocialAtCircular"
+		},
+		{
+			"title": "Work Experience",
+			"value": [
+				{
+					"title": "HUDE Labs",
+					"duration": "3 Months",
+					"location": "Bhopal, Madhya Pradesh 462024, IN",
+					"url": "http://hudelabs.com/",
+					"description": [
+						"Learned and implemented the concept of Block Element Modifier in HTML & CSS."
+					]
+				},
+				{
+					"title": "Emote Electric",
+					"description": [
+						"Developed and designed an interactive Website for Emote Electric, using HTML, CSS & PHP.",
+						"Created AWS EC2 Instance to host the website on the AWS Cloud."
+					],
+					"duration": "3 Months",
+					"location": "Coimbatore, Tamil Nadu 641032, IN",
+					"url": "https://emoteelectric.com/"
+				},
+				{
+					"title": "Semantic Technologies",
+					"description": [
+						"Worked on the MyBenefits360 which is a comprehensive and powerful online portal that automates, manages and supports Core Insurance, Wellness Benefits and Fitness Integrations"
+					],
+					"duration": "6 Months",
+					"location": "Remote",
+					"url": "https://www.mybenefits360.com/"
+				},
+				{
+					"title": "CollegePass",
+					"description": [
+						"Developed and designed an interactive advising platform for college admission, using React.js, Node.js & AWS.",
+						"Deployed service workers to perform browser operations on the PWA."
+					],
+					"duration": "6 Months",
+					"location": "Remote",
+					"url": "https://collegepass.org/"
+				}
+			],
+			"route": "#",
+			"initialColor": "#e1eec3",
+			"finalColor": "#f05053",
+			"icon": "GoRepo"
+		}
+	]
+}
