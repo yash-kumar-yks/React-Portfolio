@@ -9,6 +9,7 @@ function ResumeModal({showResumeModal, closeModal}) {
 			onHide={closeModal}
 			aria-labelledby='example-modal-sizes-title-lg'
 		>
+	
 			<Modal.Header closeButton>
 				<Modal.Title id='example-modal-sizes-title-lg'>Resume</Modal.Title>
 			</Modal.Header>

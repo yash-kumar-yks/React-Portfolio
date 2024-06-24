@@ -1,3 +1,5 @@
+
+//contact page
 import {AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
 import {Button, Container, FormControl, InputGroup} from 'react-bootstrap'
 
@@ -64,17 +66,17 @@ function SocialModal() {
 				<SocialIcons>
 					<Icon label='github'>
 						<AiOutlineGithub size={35} />
-						<CustomLink href='https://github.com/pranjaljain0' target='_blank'>
-							@pranjaljain0
+						<CustomLink href='https://github.com/yash-kumar-yks' target='_blank'>
+							@yash
 						</CustomLink>
 					</Icon>
 					<Icon label='linkedin'>
 						<AiOutlineLinkedin size={35} />
 						<CustomLink
-							href='https://www.linkedin.com/in/pranjaljain0/'
+							href='https://www.linkedin.com/in/yashkumar-singh/'
 							target='_blank'
 						>
-							@pranjaljain0
+							@yashkumar-yks
 						</CustomLink>
 					</Icon>
 				</SocialIcons>
