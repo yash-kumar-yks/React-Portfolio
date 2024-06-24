@@ -7,7 +7,7 @@ function LeftText() {
 			<div className='flex-fix'>
 				<h2>Hi, </h2>
 				<span className='preTitle'>I am </span>
-				<h1 className='name_big'>Pranjal Jain</h1>
+				<h1 className='name_big'>Yash Kumar Singh</h1>
 				<p className='animated_text'>
 					<Typed
 						strings={[
