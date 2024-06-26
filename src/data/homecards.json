@@ -3,10 +3,24 @@
 		{
 			"title": "Projects",
 			"value": [
-				
+				{
+					"id": 3,
+					"title": "The Leaf Disease Detection",
+					"description": "In this project, we have used some new age technology in an attempt to solve this problem. On the core we will have used deep learning and machine learning classification to detect the disease from the images of the leaves of the plant. With the help of image segmentation, the dataset of is trained using CNN model to make prediction.",
+					"projectRoute": "https://yash-soup-9181d.web.app/",
+					"badgeTitle": [
+						"ReactJS",
+						"Redux",
+						"HTML",
+						"CSS"
+					],
+					"initialColor": "#373B44",
+					"finalColor": "#4286f4",
+					"language": "Java"
+				},
 				{
 					"id": 1,
-					"title": "The Soup Kitchen",
+					"title": "Soup Kitchen",
 					"description": "Created a website home page for a to help the Chef in chosing his ingredients for dish.Build with React only",
 					"projectRoute": "https://yash-soup-9181d.web.app/",
 					"badgeTitle": [
@@ -34,20 +48,8 @@
 					"initialColor": "#56CCF2",
 					"finalColor": "#2F80ED",
 					"language": "C++"
-				},
-				{
-					"id": 3,
-					"title": "Leaf Disease Detection",
-					"description": "Most of the plants are infected by various fungal and bacterial diseases. Due to the exponential inclination of population, the climatic conditions also cause plant disease. The major challenges of sustainable development is to reduce the usage of pesticides, cost to save the environment and to increase the quality. Precise, accurate and early diagnosis may reduce the usage of pesticides .It provides various methods used to study crop diseases/traits using image processing and data mining. In addition, the infected area and affected percentage is also measured. The Back-Propagation concept is used for weight adjustment of training database",
-					"githubUrl": "https://github.com/yash-kumar-yks/Leaf-disease-detection",
-					"badgeTitle": [
-						"Python",
-						"Jupyter Notebook"
-					],
-					"initialColor": "#f12711",
-					"finalColor": "#f5af19",
-					"language": "JavaScript"
 				}
+				
 				
 				
 			],
@@ -63,9 +65,17 @@
 					"title": "ReactJS",
 					"level": "Advance"
 				},
+				{
+					"title": "Data Structures and Algorithm",
+					"level": "Advance"
+				},
 				
 				{
 					"title": "JAVA",
+					"level": "Intermediate"
+				},
+				{
+					"title": "Low Level Design of Applications",
 					"level": "Intermediate"
 				},
 
@@ -73,6 +83,7 @@
 					"title": "Spring Boot",
 					"level": "Intermediate"
 				},
+				
 				{
 					"title": "C++",
 					"level": "Intermediate"
@@ -133,7 +144,6 @@
 					"title": "Vellore Institute of Technology",
 					"duration": "2018-2022",
 					"location_city": "Vellore",
-					"location_state": "Tamil Nadu",
 					"location_country": "India",
 					"description": "Bachelor of Technology",
 					"sec_details": "Electronis and Communication",
@@ -172,10 +182,6 @@
 				{
 					"title": "github",
 					"link": ""
-				},
-				{
-					"title": "instagram",
-					"link": ""
 				}
 			],
 			"route": "#",
@@ -187,43 +193,15 @@
 			"title": "Work Experience",
 			"value": [
 				{
-					"title": "HUDE Labs",
-					"duration": "3 Months",
-					"location": "Bhopal, Madhya Pradesh 462024, IN",
-					"url": "http://hudelabs.com/",
+					"title": "Genpact",
+					"duration": "1 year 7 Months",
+					"location": "Bangalore, IN",
+					"url": "https://www.genpact.com/",
 					"description": [
-						"Learned and implemented the concept of Block Element Modifier in HTML & CSS."
+						"Working in ReactJS for 6+ months. Developed frontend applications with reusable components and including Higher order components, Reusable UI and React hooks for better and maintainable code design.Worked with RPA team at the start of the joining. Made BOTS to automate processes, reducing time for the process by 70% and decreasing manual intervention hours to almost 0.Worked with GenAI team to integrate GenAI to Microsoft power app."
 					]
-				},
-				{
-					"title": "Emote Electric",
-					"description": [
-						"Developed and designed an interactive Website for Emote Electric, using HTML, CSS & PHP.",
-						"Created AWS EC2 Instance to host the website on the AWS Cloud."
-					],
-					"duration": "3 Months",
-					"location": "Coimbatore, Tamil Nadu 641032, IN",
-					"url": "https://emoteelectric.com/"
-				},
-				{
-					"title": "Semantic Technologies",
-					"description": [
-						"Worked on the MyBenefits360 which is a comprehensive and powerful online portal that automates, manages and supports Core Insurance, Wellness Benefits and Fitness Integrations"
-					],
-					"duration": "6 Months",
-					"location": "Remote",
-					"url": "https://www.mybenefits360.com/"
-				},
-				{
-					"title": "CollegePass",
-					"description": [
-						"Developed and designed an interactive advising platform for college admission, using React.js, Node.js & AWS.",
-						"Deployed service workers to perform browser operations on the PWA."
-					],
-					"duration": "6 Months",
-					"location": "Remote",
-					"url": "https://collegepass.org/"
 				}
+					
 			],
 			"route": "#",
 			"initialColor": "#e1eec3",

@@ -1,6 +1,6 @@
 import {Modal} from 'react-bootstrap'
 import React from 'react'
-
+import YashCV from '../Downloadables/YashCV.pdf'
 function ResumeModal({showResumeModal, closeModal}) {
 	return (
 		<Modal
@@ -11,12 +11,12 @@ function ResumeModal({showResumeModal, closeModal}) {
 		>
 	
 			<Modal.Header closeButton>
-				<Modal.Title id='example-modal-sizes-title-lg'>Resume</Modal.Title>
+				<Modal.Title id='example-modal-sizes-title-lg'>CV</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
 				<iframe
 					title='Resume'
-					src='https://pranjaljain0.github.io/pranjaljain0/Pranjal_Jain_CV.pdf#toolbar=0'
+					src={YashCV}
 					width='100%'
 					height='700px'
 					frameBorder='0'

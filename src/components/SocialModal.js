@@ -58,6 +58,11 @@ const Icon = styled.div`
 const ButtonForm = styled.div`
 	margin-top: 15px;
 `
+const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
+
+
 
 function SocialModal() {
 	return (
@@ -72,6 +77,7 @@ function SocialModal() {
 					</Icon>
 					<Icon label='linkedin'>
 						<AiOutlineLinkedin size={35} />
+						
 						<CustomLink
 							href='https://www.linkedin.com/in/yashkumar-singh/'
 							target='_blank'
@@ -109,7 +115,7 @@ function SocialModal() {
 					/>
 				</InputGroup>
 
-				<ButtonForm>
+				<ButtonForm onClick={() => openInNewTab("https://www.linkedin.com/in/yashkumar-singh/")}>
 					<Button variant='outline-secondary' className='float-right'>
 						Submit
 					</Button>

@@ -10,7 +10,9 @@ const ResumeModal = loadable(() => import('./ResumeModal'))
 
 function Navigation() {
 	const [showResumeModal, setShowResumeModal] = useState(false)
-
+	const handleClick=()=>{
+		setShowResumeModal(true);
+	}
 	return (
 		<React.Fragment>
 			<Navbar variant='dark' expand='lg' fixed='top' className='nvabar-custon'>
@@ -44,6 +46,7 @@ function Navigation() {
 								size='1.5em'
 							/>
 						</Nav.Link>
+						<Button onClick={handleClick} style={{marginLeft:"5px", marginRight:"5px"}}>Resume</Button>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
