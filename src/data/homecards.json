@@ -63,7 +63,7 @@
 			"value": [
 				{
 					"title": "ReactJS",
-					"level": "Advance"
+					"level": "Intermediate"
 				},
 				{
 					"title": "Data Structures and Algorithm",
@@ -72,7 +72,7 @@
 				
 				{
 					"title": "JAVA",
-					"level": "Intermediate"
+					"level": "Advance"
 				},
 				{
 					"title": "Low Level Design of Applications",
@@ -81,7 +81,7 @@
 
 				{
 					"title": "Spring Boot",
-					"level": "Intermediate"
+					"level": "Advance"
 				},
 				
 				{
@@ -194,11 +194,11 @@
 			"value": [
 				{
 					"title": "Genpact",
-					"duration": "1 year 7 Months",
+					"duration": "2 year 3 Months",
 					"location": "Bangalore, IN",
 					"url": "https://www.genpact.com/",
 					"description": [
-						"Working in ReactJS for 6+ months. Developed frontend applications with reusable components and including Higher order components, Reusable UI and React hooks for better and maintainable code design.Worked with RPA team at the start of the joining. Made BOTS to automate processes, reducing time for the process by 70% and decreasing manual intervention hours to almost 0.Worked with GenAI team to integrate GenAI to Microsoft power app."
+						"Working in SpringBoot for 2+ years.Spearheaded the design and development of a scalable microservices architecture, Implemented complex business logic, parallel processing, and efficient use of Kafka for reduced processing times.Deployed a robust CI/CD pipeline using Jenkins and Docker."
 					]
 				}
 					

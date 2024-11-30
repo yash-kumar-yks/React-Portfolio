@@ -12,8 +12,8 @@ function LeftText() {
 					<Typed
 						strings={[
 							'I am an Engineer',
-							'I am a React Developer',
-							'I like to design applications',
+							'I am a Java Developer',
+							'I like to design scalable applications',
 							'I am a Athlete',
 						]}
 						typeSpeed={40}

@@ -1,6 +1,6 @@
 import {Modal} from 'react-bootstrap'
 import React from 'react'
-import YashCV from '../Downloadables/YashCV.pdf'
+import YashCV from '../Downloadables/Yash-SDE-Backend.pdf'
 function ResumeModal({showResumeModal, closeModal}) {
 	return (
 		<Modal

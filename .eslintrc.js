@@ -14,7 +14,7 @@ module.exports = {
 	},
 	plugins: ['react'],
 	rules: {
-		'react/prop-types': [0, {}], // this is dumb, why is this still recommended
+		'react/prop-types': [0, {}], 
 		'react/no-unescaped-entities': [0, {}],
 		'no-unused-vars': [1, {}],
 	},
