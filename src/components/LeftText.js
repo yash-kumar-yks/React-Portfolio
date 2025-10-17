@@ -12,7 +12,7 @@ function LeftText() {
 					<Typed
 						strings={[
 							'I am an Engineer',
-							'I am a RPA Developer',
+							'I am a Java Developer',
 							'I like to create new applications for fun',
 							'I am a Athlete',
 						]}

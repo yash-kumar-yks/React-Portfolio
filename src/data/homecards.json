@@ -146,7 +146,7 @@
 					"location_city": "Vellore",
 					"location_country": "India",
 					"description": "Bachelor of Technology",
-					"sec_details": "Electronis and Communication",
+					"sec_details": "Electronics and Communication",
 					"color": "#fef54b",
 					"text": "#1d1d1d"
 				},
@@ -194,13 +194,12 @@
 			"value": [
 				{
 					"title": "Genpact",
-					"duration": "2 year 7 Months",
+					"duration": "3 year 2 Months",
 					"location": "Bangalore, IN",
 					"url": "https://www.genpact.com/",
 					"description": [
-						"Working in automation for 2+ years. Designed and implemented end-to-end automation solutions using Microsoft Power Automate, Azure services, and Microsoft Copilot. Automated complex business workflows across departments, reducing manual effort and operational delays. Integrated cloud-based tools to build scalable, secure, and efficient process automation pipelines, improving overall productivity and accuracy."
-					]
-				}
+						"Results-driven Software Engineer at Genpact with 3+ years of experience designing and scaling Java Spring Boot microservices for high-throughput financial systems. Proven expertise in Kafka-based event-driven architectures, CI/CD automation (Jenkins, Docker), and system performance optimization. Strong foundation in data structures, algorithms, and full-stack development (React, Spring, PostgreSQL). Recognized for improving transaction throughput and reducing latency in large-scale enterprise systems."			]
+									}
 					
 			],
 			"route": "#",

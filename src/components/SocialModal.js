@@ -79,7 +79,7 @@ function SocialModal() {
 						<AiOutlineLinkedin size={35} />
 						
 						<CustomLink
-							href='https://www.linkedin.com/in/yashkumar-singh/'
+							href='https://www.linkedin.com/in/yash-singh-2658a438a/'
 							target='_blank'
 						>
 							@yashkumar-yks
@@ -115,7 +115,7 @@ function SocialModal() {
 					/>
 				</InputGroup>
 
-				<ButtonForm onClick={() => openInNewTab("https://www.linkedin.com/in/yashkumar-singh/")}>
+				<ButtonForm onClick={() => openInNewTab("https://www.linkedin.com/in/yash-singh-2658a438a/")}>
 					<Button variant='outline-secondary' className='float-right'>
 						Submit
 					</Button>

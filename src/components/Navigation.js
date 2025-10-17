@@ -38,7 +38,7 @@ function Navigation() {
 						</Nav.Link>
 						<Nav.Link
 							aria-label='Linked In'
-							href='https://www.linkedin.com/in/yashkumar-singh/'
+							href='https://www.linkedin.com/in/yash-singh-2658a438a/'
 						>
 							<FaLinkedin
 								aria-label='Linked In'
